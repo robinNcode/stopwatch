@@ -31,7 +31,7 @@ function Control({ isRunning, handleLeftButtonPress, handleRightButtonPress}){
             </TouchableOpacity>
         </>
     );
-};
+}
 
 const CENTER = {
     justifyContent: 'center',
