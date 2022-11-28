@@ -7,7 +7,7 @@ import { displayTime } from './Util';
 function Result({ results }){
     return (
         <ScrollView >
-            <View style={style.resultItem} />
+            <View style={styles.resultItem} />
             {
                 results.map((item, index) => {
                     <View key={index} style={style.resultItem}>

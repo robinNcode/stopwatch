@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { Constants } from 'expo-constants';
+import Constants  from 'expo-constants';
 import Result from './Result';
 import Control from './Control';
 import { displayTime } from './Util';
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'black',
-        paddingTop: Constants.StatusBarHeight
+        paddingTop: Constants.statusBarHeight
     },
     display: {
         flex: 3/5,
