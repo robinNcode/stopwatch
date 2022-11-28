@@ -10,7 +10,7 @@ function Result({ results }){
             <View style={styles.resultItem} />
             {
                 results.map((item, index) => {
-                    <View key={index} style={style.resultItem}>
+                    <View key={index} style={styles.resultItem}>
                         <Text style={styles.resultItemText}>
                             Lap { results.length - 1}
                         </Text>
